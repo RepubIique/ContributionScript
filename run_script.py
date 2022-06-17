@@ -6,7 +6,8 @@ repos_path = ["../local-development-docker/ss-identity-service/",
             "../local-development-docker/staff-app/",
             "../local-development-docker/ss-notification-service/",
             "../local-development-docker/ss-sts-access-lib/",
-            "../local-development-docker/sts-token-lib/"]
+            "../local-development-docker/sts-token-lib/",
+            "../local-development-docker/ss-sts-consume-lambda/"]
 repos=[]
 
 for repo_path in repos_path:
